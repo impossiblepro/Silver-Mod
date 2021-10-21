@@ -5,10 +5,10 @@ import org.apache.logging.log4j.Logger;
 
 import com.sunkenpot.silver.core.init.BlockInit;
 import com.sunkenpot.silver.core.init.ItemInit;
+import com.sunkenpot.silver.core.itemgroup.SilverItemGroup;
 
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -38,7 +38,7 @@ public class Silver {
 	@SubscribeEvent
 	public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
 		BlockInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
-			event.getRegistry().register(new BlockItem(block, new Item.Properties().group(ItemGroup.MISC))
+			event.getRegistry().register(new BlockItem(block, new Item.Properties().group(SilverItemGroup.ITEM_GROUP))
 					.setRegistryName(block.getRegistryName()));
 		});
 

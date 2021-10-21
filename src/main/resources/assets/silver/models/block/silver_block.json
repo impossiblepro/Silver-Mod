@@ -1,0 +1,6 @@
+{
+  "parent":"block/cube_all",
+  "textures":{
+    "layer0":"silver_blocks/silver_block"
+  }
+}
