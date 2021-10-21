@@ -12,5 +12,5 @@ public class ItemInit {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Silver.MOD_ID);
 	
 	public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
-			() -> new Item(new Item.Properties().group(ItemGroup.TOOLS)));
+			() -> new Item(new Item.Properties().group(ItemGroup.MISC)));
 }
