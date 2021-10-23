@@ -4,7 +4,6 @@ import com.sunkenpot.silver.Silver;
 import com.sunkenpot.silver.core.itemgroup.SilverItemGroup;
 
 import net.minecraft.item.Item;
-import net.minecraft.item.Item.Properties;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

@@ -1,0 +1,17 @@
+{
+   "type":"crafting_shaped",
+   "pattern":[
+      "NNN",
+      "NNN",
+      "NNN"
+   ],
+   "key":{
+      "S":{
+        "item":"silver_nugget"
+      }
+   },
+   "result":{
+    "item":"silver:silver_ingot",
+    "count": 1
+   }
+}
