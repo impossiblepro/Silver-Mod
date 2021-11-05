@@ -4,6 +4,7 @@ import com.sunkenpot.silver.Silver;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
@@ -17,10 +18,7 @@ public class BlockInit {
 
 	public static final RegistryObject<Block> SILVER_ORE = BLOCKS
 			.register("silver_ore",
-					() -> new Block(AbstractBlock.Properties.create(Material.IRON, MaterialColor.GRAY)
-							.hardnessAndResistance(5f, 6f).harvestTool(ToolType.PICKAXE).harvestLevel(2)
-							.sound(SoundType.STONE)));
-
+					() -> new Block(AbstractBlock.Properties.from(Blocks.IRON_ORE)));
 	public static final RegistryObject<Block> SILVER_BLOCK = BLOCKS
 			.register("silver_block",
 					() -> new Block(AbstractBlock.Properties.create(Material.IRON, MaterialColor.GRAY)

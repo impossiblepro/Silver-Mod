@@ -1,16 +1,17 @@
 {
- "type":"crafting_shapless",
- "ingredients":[
-  {
-    "item":"silver:silver_ingot"
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+   "XXX",
+   "XXX",
+   "XXX"
+  ],
+  "key":{
+    "X":{
+    "item":"silver:silver_nugget"
+    }
+  },
+  "result":{
+    "item":"silver:silver_ingot",
+    "count":1
   }
- ],
- 
- "result":{
- 
-   "item":"silver_nugget",
-   "count":9
- 
- }
- 
 }

@@ -2,5 +2,9 @@
   "item.silver.silver_ingot":"Silver Ingot",
   "block.silver.silver_ore":"Silver Ore",
   "item.silver.silver_nugget":"Silver Nugget",
-  "block.silver.silver_block":"Silver Block"
+  "block.silver.silver_block":"Silver Block",
+  "itemGroup.Silver":"Silver",
+  "item.silver.silver_pickaxe":"Silver Pickaxe",
+  "item.silver.silver_sword":"Silver Sword",
+  "item.silver.silver_axe":"Silver Axe"
 }
